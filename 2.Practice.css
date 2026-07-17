@@ -1,0 +1,26 @@
+/* #box{
+    color:red;
+}
+p{
+    color:rgb(221,11,89)
+}
+big{
+    color:#ff00ff
+}
+#box{
+    background-color:#0000ff;
+} */
+
+/* .heading{
+    color:rgb(255,0,0);
+
+    or
+} */
+
+h1,h2,h3{
+    color:red;
+}
+
+/* button{
+    background-color:green;
+} */
