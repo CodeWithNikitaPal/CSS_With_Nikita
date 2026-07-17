@@ -1,0 +1,14 @@
+*{
+        font-family:'Times New Roman';
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#firstdiv{
+     font-size:25px;
+}
+#seconddiv{
+    font-size:10px;
+}
