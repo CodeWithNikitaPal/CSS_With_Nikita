@@ -1,0 +1,45 @@
+body{
+        text-align:center;
+}
+div{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#contain{
+    height:100px;
+    width:1000px;
+    display:flex;  
+    flex-direction:row; 
+    /* flex-direction:row-reverse;                  
+    flex-direction:column;                  
+    flex-direction:column-reverse;                  
+     */
+     justify-content:center;
+}
+#Box1{
+    background-color: cornflowerblue;
+        display: inline-block;
+
+}
+#Box2{
+    background-color: aquamarine;
+        display: inline-block;
+
+}
+#Box3{
+    background-color: blueviolet;
+        display: inline-block;
+
+}
+#Box4{
+    background-color: darkgoldenrod;
+        display: inline-block;
+
+}
+#Box5{
+    background-color:lightpink;
+        display: inline-block;
+
+}
