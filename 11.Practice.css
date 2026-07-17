@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    width:200px;
+    display: inline-block;
+    /* border:2px solid black; */
+    color:white;
+    position:fixed;
+    right:0px;
+    top:50px;
+    background-image: url(photo_4.jpg);
+    background-size: cover;
+}
