@@ -1,0 +1,64 @@
+div{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display: inline-block;
+}
+
+#Box1{
+    position:static;
+    background-color: brown;
+}
+#Box2{
+    background-color: darkmagenta;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+#Box3{
+    background-color: aqua;
+    position:sticky;
+    top:0px;
+    right:30px;
+}
+#Box4{
+    background-color: cadetblue;
+    /* position:absolute; */
+    /* top:100px; */
+    position:fixed;
+    left:500px;
+    top:0px;
+}
+
+/* Z-index */
+#Box5{
+    background-color: burlywood;
+    position:relative;
+    left:20px;
+    z-index: 1;
+}
+#Box6{
+    background-color: darkgreen;
+    position: sticky;
+    bottom:30px;
+    z-index:0;
+}
+#Box7{
+    background-color: deeppink;
+    right:50px;
+    position: relative;
+    z-index:9;
+}
+#Box8{
+    background-color: dimgray;
+    position: absolute;
+    right:60px;
+    z-index:6;
+}
+
+/* image property */
+#Box9{
+    background-color: blanchedalmond;
+    background-image: url(photo_4.jpg);
+    background-size: cover;
+}
